@@ -1,0 +1,59 @@
+// script formatting is tricky 
+// the whole page should zoom in and out
+
+// to do:
+// however, GOT everything in rrem to achive some responsiveness
+
+$script-line-height: 1.7rem;
+
+.script {
+  p {
+    font-size: 1.6rem;
+    line-height: 1;
+    font-family: Courier, monospace;
+    color: black;
+  }
+
+  p.sceneheading {
+    margin-bottom: $script-line-height;
+    text-transform: uppercase;
+  }
+
+  p.action {
+    margin-bottom: $script-line-height;
+  }
+
+  p.shot {
+    text-transform: uppercase;
+  }
+
+  p.character {
+    text-transform: uppercase;
+    margin-left: 25rem;
+    margin-bottom: 0;
+  }
+
+  p.parenthetical {
+    margin-left: 24rem;
+    margin-right: 22rem;
+    margin-bottom: 0;
+  }
+
+  p.dialog {
+    margin-top: 0 19rem $script-line-height 16rem;
+  }
+
+  p.transition {
+    margin-right: 1rem;
+    text-transform: uppercase;
+    text-align: right;
+    margin-bottom: $script-line-height;
+  }
+}
+
+// designed for a width of 900px
+@include media-breakpoint-up(md) {
+  .script .cc {
+    padding: 7rem 9rem !important 6rem 12rem !important;
+  }
+}

@@ -1,0 +1,139 @@
+$amtrak-blue: #9e0500;
+$amtrak-red: #003E89;
+$amtrak-blue-light: lighten($amtrak-blue, 20%);
+
+.aboard-amtrak {
+  font-family: $font-family-serif;
+
+  blockquote,
+  blockquote p,
+  blockquote cite,
+  h1,
+  h2 {
+    font-family: $font-family-sans-serif;
+  }
+
+  .masthead {
+    border: 1px 0 solid #222222;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  .navbar .nav {}
+
+  @include media-breakpoint-up(sm) {
+    .cc {
+      @include make-col(8);
+
+      // max-width: 750px;
+      padding-left: 12px;
+      border-width: 0 0 0 9px;
+      border-style: solid;
+      border-color: blue;
+      // border-image: url("../images/amtrak/amtrak-border-mute.gif") 0 0 0 30;
+
+      a {
+        color: $amtrak-blue;
+        transition: color 0.3s;
+      }
+
+      a:hover {
+        color: $amtrak-blue-dark;
+      }
+
+      .flexslider a {
+        color: black;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .cc {
+    padding-left: 30px;
+    border-width: 0 0 0 30px;
+  }
+}
+
+
+// cities photo gallery
+#gallery-8-aboard-amtrak {
+  figcaption {
+    display: none;
+  }
+}
+
+#collage-control-8-aboard-amtrak {
+  display: none;
+}
+
+.kraft {
+  @include media-breakpoint-up(sm) {
+    @include make-col(3);
+  }
+
+
+  position: relative;
+  margin: auto;
+  background: white;
+  z-index: 99;
+  padding: 5px 0;
+}
+
+.tips-tricks-destinations-amtrak-travel-guide {
+  position: relative;
+
+  .macaroni {
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+
+    a:hover {
+      color: darken($amtrak-blue, 20%);
+      background: #EEF;
+      text-decoration: none;
+    }
+  }
+
+  .active .noodle {
+    border-left: 4px solid $amtrak-blue;
+  }
+
+  .noodle {
+    border-left: 4px solid transparent;
+
+    // padding: 2px 0 2px 3px;
+    // font-size: 14px;
+ 
+  }
+
+  .noodle:hover {
+    color: darken($amtrak-blue, 20%);
+  }
+
+  .noodle.active {
+    text-decoration: underline;
+  }
+}
+
+// @media (min-width: @screen-md-min) { 
+//   .affix-top{
+//     position: absolute;
+//     top: 600px;
+//   }
+
+//   .affix{
+//     position: fixed;
+//     top: 30px;
+//   }
+// }
+// @media (max-width: @screen-md-min) { 
+//   .affix-top{
+//     position: static;
+//   }
+
+//   .macaroni {
+//     padding: 20px 0;
+//   }
+// }
