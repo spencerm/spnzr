@@ -8,9 +8,9 @@
   <h1>Spencer McCormick</h1>
   <nav class="nav-primary">
 		<ul id="menu-home">
+      <li><a href="#programming">programming</a></li>
+      <li><a href="#tech">tech</a></li>
 			<li><a href="#design">design</a></li>
-			<li><a href="#programming">programming</a></li>
-			<li><a href="#storytelling">storytelling</a></li>
 			<li><a href="#poultry">poultry</a></li>
 		</ul>
   </nav>

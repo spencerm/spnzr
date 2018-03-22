@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "16214172d46325783dec962ec46a5db0",
+    "content-hash": "1a5dfc2ec383dd23822dfe40653d4f58",
     "packages": [
         {
             "name": "composer/installers",
@@ -278,16 +278,16 @@
         },
         {
             "name": "roots/soil",
-            "version": "3.7.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/soil.git",
-                "reference": "d0e409e70dafff4ceeaa8ef941ee319e350317dd"
+                "reference": "eba5e67ef4c29e6050a998f320dd2c752bee0e20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/soil/zipball/d0e409e70dafff4ceeaa8ef941ee319e350317dd",
-                "reference": "d0e409e70dafff4ceeaa8ef941ee319e350317dd",
+                "url": "https://api.github.com/repos/roots/soil/zipball/eba5e67ef4c29e6050a998f320dd2c752bee0e20",
+                "reference": "eba5e67ef4c29e6050a998f320dd2c752bee0e20",
                 "shasum": ""
             },
             "require": {
@@ -319,7 +319,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2017-08-14T01:36:41+00:00"
+            "time": "2017-11-14T06:16:14+00:00"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -450,108 +450,6 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
-        },
-        {
-            "name": "webdevstudios/cmb2",
-            "version": "v2.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CMB2/CMB2.git",
-                "reference": "a1778c2ffccf2fdd11c9d2006eaa72192bdce9e9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CMB2/CMB2/zipball/a1778c2ffccf2fdd11c9d2006eaa72192bdce9e9",
-                "reference": "a1778c2ffccf2fdd11c9d2006eaa72192bdce9e9",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">5.2.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*"
-            },
-            "suggest": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "WebDevStudios",
-                    "email": "contact@webdevstudios.com",
-                    "homepage": "https://github.com/WebDevStudios",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Justin Sternberg",
-                    "email": "justin@dsgnwrks.pro",
-                    "homepage": "https://dsgnwrks.pro",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Zao",
-                    "email": "office@zao.com",
-                    "homepage": "http://zao.is",
-                    "role": "Developer"
-                }
-            ],
-            "description": "CMB2 is a metabox, custom fields, and forms library for WordPress that will blow your mind.",
-            "homepage": "https://github.com/CMB2/CMB2",
-            "keywords": [
-                "metabox",
-                "plugin",
-                "wordpress"
-            ],
-            "time": "2017-12-20T14:18:52+00:00"
-        },
-        {
-            "name": "webdevstudios/cmb2-attached-posts",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CMB2/cmb2-attached-posts.git",
-                "reference": "556701d8f032931838c524ddc55c40b177a0e1a8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CMB2/cmb2-attached-posts/zipball/556701d8f032931838c524ddc55c40b177a0e1a8",
-                "reference": "556701d8f032931838c524ddc55c40b177a0e1a8",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">5.2.4"
-            },
-            "suggest": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "WebDevStudios",
-                    "email": "contact@webdevstudios.com",
-                    "homepage": "https://github.com/WebDevStudios",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Custom field for CMB2 for creating post relationships.",
-            "homepage": "https://github.com/WebDevStudios/CMB2",
-            "keywords": [
-                "attached",
-                "metabox",
-                "plugin",
-                "post",
-                "relationship",
-                "wordpress"
-            ],
-            "time": "2017-11-09T18:44:20+00:00"
         },
         {
             "name": "wp-sync-db/wp-sync-db",
@@ -697,26 +595,6 @@
             "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
         },
         {
-            "name": "wpackagist-plugin/wp-quiz",
-            "version": "1.1.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-quiz/",
-                "reference": "tags/1.1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-quiz.1.1.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-quiz/"
-        },
-        {
             "name": "wpackagist-plugin/wp-youtube-lyte",
             "version": "1.6.8",
             "source": {
@@ -741,16 +619,16 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "webdevstudios/cmb2-attached-posts": 20,
-        "spencerm/simple-galleries": 20,
+        "roots/soil": 20,
         "wp-sync-db/wp-sync-db": 20,
         "wp-sync-db/wp-sync-db-cli": 20,
-        "wp-sync-db/wp-sync-db-media-files": 20
+        "wp-sync-db/wp-sync-db-media-files": 20,
+        "spencerm/simple-galleries": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.7"
+        "php": ">=7"
     },
     "platform-dev": []
 }

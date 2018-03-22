@@ -1,5 +1,5 @@
 $amtrak-blue: #9e0500;
-$amtrak-red: #003E89;
+$amtrak-red: #003e89;
 $amtrak-blue-light: lighten($amtrak-blue, 20%);
 
 .aboard-amtrak {
@@ -14,14 +14,12 @@ $amtrak-blue-light: lighten($amtrak-blue, 20%);
   }
 
   .masthead {
-    border: 1px 0 solid #222222;
+    border: 1px 0 solid #222;
   }
 
   header {
     padding: 0;
   }
-
-  .navbar .nav {}
 
   @include media-breakpoint-up(sm) {
     .cc {
@@ -57,7 +55,6 @@ $amtrak-blue-light: lighten($amtrak-blue, 20%);
   }
 }
 
-
 // cities photo gallery
 #gallery-8-aboard-amtrak {
   figcaption {
@@ -73,7 +70,6 @@ $amtrak-blue-light: lighten($amtrak-blue, 20%);
   @include media-breakpoint-up(sm) {
     @include make-col(3);
   }
-
 
   position: relative;
   margin: auto;
@@ -91,21 +87,19 @@ $amtrak-blue-light: lighten($amtrak-blue, 20%);
 
     a:hover {
       color: darken($amtrak-blue, 20%);
-      background: #EEF;
+      background: #eef;
       text-decoration: none;
     }
   }
 
-  .active .noodle {
-    border-left: 4px solid $amtrak-blue;
-  }
-
   .noodle {
     border-left: 4px solid transparent;
-
     // padding: 2px 0 2px 3px;
     // font-size: 14px;
- 
+  }
+
+  .active .noodle {
+    border-left: 4px solid $amtrak-blue;
   }
 
   .noodle:hover {
@@ -116,24 +110,3 @@ $amtrak-blue-light: lighten($amtrak-blue, 20%);
     text-decoration: underline;
   }
 }
-
-// @media (min-width: @screen-md-min) { 
-//   .affix-top{
-//     position: absolute;
-//     top: 600px;
-//   }
-
-//   .affix{
-//     position: fixed;
-//     top: 30px;
-//   }
-// }
-// @media (max-width: @screen-md-min) { 
-//   .affix-top{
-//     position: static;
-//   }
-
-//   .macaroni {
-//     padding: 20px 0;
-//   }
-// }

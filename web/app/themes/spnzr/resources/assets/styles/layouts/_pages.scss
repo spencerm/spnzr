@@ -3,9 +3,8 @@
  *
  */
 
-
 /*
- * front-page 
+ * front-page
  *
  */
 
@@ -79,11 +78,6 @@
   #menu-home {
     z-index: 99;
     position: relative;
-
-    a {
-      color: #333;
-      display: block;
-    }
   }
 }
 
@@ -160,15 +154,13 @@
 
 // contact
 #cheeze-itz {
-  color: #ffffff;
+  color: #fff;
   border-top: 4px dashed white;
   border-bottom: 4px dashed white;
   background-color: black;
 
-  //   @include add-vertical-padding(2.5rem);
-    
   a {
-    color: #FFF;
+    color: #fff;
 
     &:hover {
       color: $palm-blue;
@@ -189,12 +181,10 @@
   }
 }
 
-
 /*
- * terms 
+ * terms
  *
  */
-
 .terms .cc,
 .terms header {
   max-width: 50%;
