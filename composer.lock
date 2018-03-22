@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1a5dfc2ec383dd23822dfe40653d4f58",
+    "content-hash": "185cd10faaac31e8451299e9e324e788",
     "packages": [
         {
             "name": "composer/installers",
@@ -556,15 +556,15 @@
         },
         {
             "name": "wpackagist-plugin/autodescription",
-            "version": "2.9.4",
+            "version": "3.0.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autodescription/",
-                "reference": "tags/2.9.4"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.2.9.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/autodescription.zip?timestamp=1519755105",
                 "reference": null,
                 "shasum": null
             },

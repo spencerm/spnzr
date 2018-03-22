@@ -53,7 +53,7 @@
     "wp-sync-db/wp-sync-db-media-files": "dev-master",
     "spencerm/simple-galleries": "dev-master",
     "wpackagist-plugin/regenerate-thumbnails": "2.*",
-    "wpackagist-plugin/autodescription": "2.*",
+    "wpackagist-plugin/autodescription": "3.*",
     "wpackagist-plugin/wp-youtube-lyte": "1.*"
   },
   "extra": {
