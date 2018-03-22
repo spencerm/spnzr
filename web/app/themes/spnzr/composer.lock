@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d6c826fd72a99be33d4a3c4b8209f1d",
+    "content-hash": "b58fbe0c86d06990c1c7ef7414df19e6",
     "packages": [
         {
             "name": "brain/hierarchy",
@@ -781,16 +781,16 @@
         },
         {
             "name": "soberwp/controller",
-            "version": "dev-master",
+            "version": "9.0.0-beta.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/soberwp/controller.git",
-                "reference": "6bb5122242ec115197e63dd034490967213362d0"
+                "reference": "2b6c8450f4a3100b16bfc482c825d89422b6adc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/soberwp/controller/zipball/6bb5122242ec115197e63dd034490967213362d0",
-                "reference": "6bb5122242ec115197e63dd034490967213362d0",
+                "url": "https://api.github.com/repos/soberwp/controller/zipball/2b6c8450f4a3100b16bfc482c825d89422b6adc6",
+                "reference": "2b6c8450f4a3100b16bfc482c825d89422b6adc6",
                 "shasum": ""
             },
             "require": {
@@ -829,34 +829,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2017-08-20 20:11:12"
-        },
-        {
-            "name": "spencerm/spnzr-helper-functions",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:spencerm/spnzr-helper-functions.git",
-                "reference": "9ea9ca5b209c441a6384da714b8abc34521d38d1"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "functions.php"
-                ]
-            },
-            "authors": [
-                {
-                    "name": "Spencer McCormick",
-                    "homepage": "https://spnzr.com"
-                }
-            ],
-            "description": "functions for WP",
-            "homepage": "https://github.com/spencerm/spnzr-helper-functions/",
-            "keywords": [
-                "wordpress"
-            ],
-            "time": "2017-08-21 02:58:47"
+            "time": "2017-08-22T17:35:30+00:00"
         },
         {
             "name": "symfony/debug",
@@ -1508,8 +1481,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "roots/sage-lib": 10,
-        "spencerm/spnzr-helper-functions": 20,
-        "soberwp/controller": 20
+        "soberwp/controller": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,

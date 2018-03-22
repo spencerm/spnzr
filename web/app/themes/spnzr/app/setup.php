@@ -28,8 +28,6 @@ add_action('after_setup_theme', function () {
     add_theme_support('soil-nav-walker');
     add_theme_support('soil-nice-search');
     add_theme_support('soil-relative-urls');
-    add_theme_support('soil-js-to-footer');
-    add_theme_support('soil-google-analytics', 'UA-11009369-1');
 
     /**
      * Enable plugins to manage the document title
@@ -42,8 +40,7 @@ add_action('after_setup_theme', function () {
      * @link https://developer.wordpress.org/reference/functions/register_nav_menus/
      */
     register_nav_menus([
-        'primary_navigation' => __('Primary Navigation', 'sage'),
-        'home_nav' => __('Home Menu', 'sage')
+        'primary_navigation' => __('Primary Navigation', 'sage')
     ]);
 
     /**

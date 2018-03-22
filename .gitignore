@@ -20,3 +20,4 @@ vendor/*
 !vendor/.gitkeep
 
 web/app/themes/o.spnzr
+web/app/themes/oo.spnzr
