@@ -1,1 +1,71 @@
+//
+// Variables
+// --------------------------------------------------
+
+
+//== Colors
+$color-facebook:            #3b5998;
+$color-twitter:             #55ACEE;
+$color-reddit:              #ff4500;
+$color-google-plus:         #D34836;
+$color-pinterest:           #cb2027;
+
+$palm-blue:                 #00ffff;
+$palm-green:                #00ff00;
+$city-yellow:               #EEDD33;
+
+$grey-dark:                 #3E454C;
+$amtrak-blue:               #2185C5;
+$amtrak-blue-light:         #7ECEFD;
+$amtrak-blue-dark:          darken($amtrak-blue, 15%);
+$amtrak-red:                #FF7F66;
+$salmon-dark:               #E74C3C;
+$tan:                       #FFF6E5;
+
+$gray-100:                  #f8f9fa;
+$gray-200:                  #e9ecef;
+$gray-300:                  #dee2e6;
+$gray-400:                  #ced4da;
+$gray-500:                  #adb5bd;
+$gray-600:                  #868e96;
+$gray-700:                  #495057;
+$gray-800:                  #343a40;
+$gray-900:                  #212529;
+
+$theme-colors: (
+  primary: $palm-blue,
+  secondary: $gray-600,
+  success: $palm-blue,
+  info: $city-yellow,
+  warning: #f0ad4e,
+  danger: #dc3545,
+  light: $gray-100,
+  dark: $gray-800
+);
+
+
+$systemMonospace: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro";
+$systemSerif: "Apple Garamond", "Baskerville", "Times New Roman", "Droid Serif", "Times","Source Serif Pro";
+
+
+$font-family-serif:        $systemSerif, Georgia, serif;
+$font-family-monospace:    $systemMonospace, mono;
+
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-rounded:            false;
+$enable-shadows:            true;
+$enable-gradients:          true;
+$enable-transitions:        true;
+$enable-hover-media-query:  false;
+$enable-grid-classes:       true;
+$enable-print-styles:       true;
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
 
