@@ -6,9 +6,9 @@
 
 $script-line-height: 1.7rem;
 
-.script {
+.category-script {
   p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     line-height: 1;
     font-family: Courier, monospace;
     color: black;
@@ -29,18 +29,16 @@ $script-line-height: 1.7rem;
 
   p.character {
     text-transform: uppercase;
-    margin-left: 25rem;
-    margin-bottom: 0;
+    margin: 0 10rem 0 15rem;
   }
 
   p.parenthetical {
-    margin-left: 24rem;
-    margin-right: 22rem;
-    margin-bottom: 0;
+    margin: 0 10rem 0 10rem;
+
   }
 
   p.dialog {
-    margin-top: 0 19rem $script-line-height 16rem;
+    margin: 0 10rem $script-line-height 10rem;
   }
 
   p.transition {
@@ -51,9 +49,15 @@ $script-line-height: 1.7rem;
   }
 }
 
-// designed for a width of 900px
-@include media-breakpoint-up(md) {
-  .script .cc {
-    padding: 7rem 9rem !important 6rem 12rem !important;
+// designed for a width of 940px
+@include media-breakpoint-up(lg) {
+  .script{
+    .c,
+    .cc{
+      max-width: 940px;
+    }
+    .cc {
+      padding: 6rem 5rem 6rem 6rem;
+    }
   }
 }

@@ -54,7 +54,8 @@
     "spencerm/simple-galleries": "dev-master",
     "wpackagist-plugin/regenerate-thumbnails": "2.*",
     "wpackagist-plugin/autodescription": "3.*",
-    "wpackagist-plugin/wp-youtube-lyte": "1.*"
+    "wpackagist-plugin/wp-youtube-lyte": "1.*",
+    "wpackagist-plugin/credibility": "1.*"
   },
   "extra": {
     "installer-paths": {

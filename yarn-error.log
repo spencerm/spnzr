@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/9.8.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js build
+  /usr/local/Cellar/node/9.8.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js start
 
 PATH: 
   /Users/cheese/flutter/bin:/Users/cheese/.npm-packages/bin:/Users/cheese/.npm-packages/bin:/Users/cheese/.node/bin:/Users/cheese/.npm-packages/bin:/Users/cheese/.npm-packages/bin:/Users/cheese/.npm-packages/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/cheese/.composer/vendor/bin

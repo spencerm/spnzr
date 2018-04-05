@@ -1,8 +1,4 @@
-$amtrak-blue: #9e0500;
-$amtrak-red: #003e89;
-$amtrak-blue-light: lighten($amtrak-blue, 20%);
-
-.aboard-amtrak {
+.amtrak {
   font-family: $font-family-serif;
 
   blockquote,
@@ -13,7 +9,7 @@ $amtrak-blue-light: lighten($amtrak-blue, 20%);
     font-family: $font-family-sans-serif;
   }
 
-  .masthead {
+  .banner {
     border: 1px 0 solid #222;
   }
 
@@ -46,67 +42,67 @@ $amtrak-blue-light: lighten($amtrak-blue, 20%);
       }
     }
   }
-}
 
-@include media-breakpoint-up(md) {
-  .cc {
-    padding-left: 30px;
-    border-width: 0 0 0 30px;
-  }
-}
-
-// cities photo gallery
-#gallery-8-aboard-amtrak {
-  figcaption {
-    display: none;
-  }
-}
-
-#collage-control-8-aboard-amtrak {
-  display: none;
-}
-
-.kraft {
-  @include media-breakpoint-up(sm) {
-    @include make-col(3);
-  }
-
-  position: relative;
-  margin: auto;
-  background: white;
-  z-index: 99;
-  padding: 5px 0;
-}
-
-.tips-tricks-destinations-amtrak-travel-guide {
-  position: relative;
-
-  .macaroni {
-    background: white;
-    background: rgba(255, 255, 255, 0.8);
-
-    a:hover {
-      color: darken($amtrak-blue, 20%);
-      background: #eef;
-      text-decoration: none;
+  @include media-breakpoint-up(md) {
+    .cc {
+      padding-left: 30px;
+      border-width: 0 0 0 30px;
     }
   }
 
-  .noodle {
-    border-left: 4px solid transparent;
-    // padding: 2px 0 2px 3px;
-    // font-size: 14px;
+  // cities photo gallery
+  #gallery-8-aboard-amtrak {
+    figcaption {
+      display: none;
+    }
   }
 
-  .active .noodle {
-    border-left: 4px solid $amtrak-blue;
+  #collage-control-8-aboard-amtrak {
+    display: none;
   }
 
-  .noodle:hover {
-    color: darken($amtrak-blue, 20%);
+  .kraft {
+    @include media-breakpoint-up(sm) {
+      @include make-col(3);
+    }
+
+    position: relative;
+    margin: auto;
+    background: white;
+    z-index: 99;
+    padding: 5px 0;
   }
 
-  .noodle.active {
-    text-decoration: underline;
+  .tips-tricks-destinations-amtrak-travel-guide {
+    position: relative;
+
+    .macaroni {
+      background: white;
+      background: rgba(255, 255, 255, 0.8);
+
+      a:hover {
+        color: darken($amtrak-blue, 20%);
+        background: #eef;
+        text-decoration: none;
+      }
+    }
+
+    .noodle {
+      border-left: 4px solid transparent;
+      // padding: 2px 0 2px 3px;
+      // font-size: 14px;
+    }
+
+    .active .noodle {
+      border-left: 4px solid $amtrak-blue;
+    }
+
+    .noodle:hover {
+      color: darken($amtrak-blue, 20%);
+    }
+
+    .noodle.active {
+      text-decoration: underline;
+    }
   }
 }

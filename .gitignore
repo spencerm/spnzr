@@ -19,5 +19,7 @@ web/.htaccess
 vendor/*
 !vendor/.gitkeep
 
+# Old Themes
 web/app/themes/o.spnzr
 web/app/themes/oo.spnzr
+

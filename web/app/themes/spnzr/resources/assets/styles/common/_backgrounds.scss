@@ -1,0 +1,193 @@
+/*
+ * so we've got lots of backgrounds and lots of text directly over backgrounds
+ * thus!
+ * 
+ */
+
+body {
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+/*
+ * Horizontal scroll layout
+ * (so this layout but it's added via the spnzr_bg taxomony thus I put it here...)
+ */
+
+.hx {
+    .cc {
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        display: flex;
+    }
+    .cc:before {
+        content: '\f061';
+        font-size: 160px;
+        font-family: fontawesome, sans-serif;
+        position: absolute;
+        left: 15rem;
+        bottom: 0px;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+    }
+    .cc:after {
+        content: 'scroll right';
+        position: absolute;
+        left: 15.5em;
+        bottom: 6.2rem;
+        color: #444;
+        text-shadow: 1px 1px 1px white;
+    }
+}
+
+
+/*
+ * Background colors 
+ */
+
+.category-prose,
+.category-prose-clean,
+.category-script {
+    .cc {
+        background: white;
+    }
+}
+
+
+/*
+we build up our backgrounds by adding following classes
+*/
+
+.bg {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-top {
+    background-position: top;
+    background-attachment: local;
+}
+
+.bg-bottom {
+  background-position: bottom;
+  background-attachment: local;
+}
+
+.bg-right {
+  background-position: right;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+
+// actual backgrounds 
+// basic colors
+.bg-light {
+    background-color: $gray-300;
+		.banner a,
+		.entry-meta,
+    .entry-title,
+    .entry title a {
+        color: #222 !important;
+        text-shadow: rgba(250, 250, 250, 0.2) -1px -1px 2px;
+    }
+}
+
+.bg-white {
+    background-color: white;
+		.banner a,
+		.entry-meta,
+    .entry-title,
+    .entry title a {
+        color: #222 !important;
+        text-shadow: rgba(250, 250, 250, 0.2) -1px -1px 2px;
+    }
+}
+
+.bg-dark {
+    background-color: $gray-800;
+		.banner a,
+		.entry-meta,
+    .entry-title,
+    .entry title a {
+        color: white !important;
+        text-shadow: rgba(0, 0, 0, 0.3) -1px -1px 2px;
+    }
+}
+
+.bg-black {
+    background-color: black;
+		.banner a,
+		.entry-meta,
+    .entry-title,
+    .entry title a {
+        color: white !important;
+        text-shadow: rgba(0, 0, 0, 0.3) -1px -1px 2px;
+    }
+}
+
+.bg-blue {
+    background-color: #2d4399;
+}
+
+.bg-tan {
+    background-color: #ffffc8; // plane
+}
+
+// designzzz
+.palm {
+    background: $palm-green url('../images/site/palm.gif') bottom repeat-x;
+}
+
+.bg-robot {
+    background: url(../images/bgs/bg-robot.png) no-repeat bottom left #ce3c22;
+    background-attachment: fixed;
+}
+
+.bg-city {
+    /* old*/
+    background: url(../images/bgs/bg-corner-lines.png) no-repeat 10px 10px #eeee66;
+    /* IE 9+*/
+    background: url(../images/bgs/bg-corner-lines.png) no-repeat 10px 10px, url(../images/bgs/bg-city.png) bottom repeat-x, #eeee66;
+    /* Safari 5.1, Chrome 10+ */
+    background: url(../images/bgs/bg-corner-lines.png) no-repeat 10px 10px, url(../images/bgs/bg-city.png) bottom repeat-x, -webkit-linear-gradient(top, #ffee88, #eedd33);
+}
+
+.bg-green-yellow {
+    text-align: center;
+    -moz-background-size: 40px 40px;
+    -webkit-background-size: 120px 40px;
+    -o-background-size: 40px 40px;
+    background-size: 80px 80px;
+    background-image: -moz-linear-gradient(-45deg, #ffed4c 0%, #f4bb35 3%, #8eed3b 25%, #f4bb35 47%, #ffed4c 50%, #f4bb35 53%, #8eed3b 75%, #f4bb35 97%, #ffed4c 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffed4c), color-stop(5%, #f4bb35), color-stop(25%, #8eed3b), color-stop(47%, #f4bb35), color-stop(50%, #ffed4c), color-stop(53%, #f4bb35), color-stop(75%, #8eed3b), color-stop(97%, #f4bb35), color-stop(100%, #ffed4c));
+    background-image: -webkit-linear-gradient(-45deg, #ffed4c 0%, #f4bb35 3%, #8eed3b 25%, #f4bb35 47%, #ffed4c 50%, #f4bb35 53%, #8eed3b 75%, #f4bb35 97%, #ffed4c 100%);
+    background-image: -o-linear-gradient(-45deg, #ffed4c 0%, #f4bb35 3%, #8eed3b 25%, #f4bb35 47%, #ffed4c 50%, #f4bb35 53%, #8eed3b 75%, #f4bb35 97%, #ffed4c 100%);
+    background-image: -ms-linear-gradient(-45deg, #ffed4c 0%, #f4bb35 3%, #8eed3b 25%, #f4bb35 47%, #ffed4c 50%, #f4bb35 53%, #8eed3b 75%, #f4bb35 97%, #ffed4c 100%);
+    background-image: linear-gradient(135deg, #ffed4c 0%, #f4bb35 3%, #8eed3b 25%, #f4bb35 47%, #ffed4c 50%, #f4bb35 53%, #8eed3b 75%, #f4bb35 97%, #ffed4c 100%);
+}
+
+.bg-american-eagle {
+    background: url(../images/bgs/american-eagle.gif) no-repeat top right #2d4399;
+}
+
+.bg-plane {
+    background: url(../images/bgs/bg-corner-lines.png) no-repeat 10px 10px, url(../images/bgs/bg-plane-pattern.png) bottom left no-repeat, -webkit-linear-gradient(top, #FE8, #ffffc8);
+    background-attachment: fixed;
+}
+
+.transparent-bg {}
+
+.palm {
+    .transparent-bg {
+        a:hover {
+            text-decoration: none;
+            background-color: black;
+            color: #edffeb;
+        }
+    }
+}

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "185cd10faaac31e8451299e9e324e788",
+    "content-hash": "8ae3f28271a1ab44ead0608924f5064f",
     "packages": [
         {
             "name": "composer/installers",
@@ -573,6 +573,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/autodescription/"
+        },
+        {
+            "name": "wpackagist-plugin/credibility",
+            "version": "1.22",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/credibility/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/credibility.zip?timestamp=1393227364",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/credibility/"
         },
         {
             "name": "wpackagist-plugin/regenerate-thumbnails",

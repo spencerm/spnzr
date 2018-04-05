@@ -1,0 +1,171 @@
+/*
+ * repeated styles for content
+ *
+ */
+
+/* ==========================================================================
+    post header
+    ========================================================================== */
+
+.banner {
+	padding-top: 1rem;
+	.nav-link {
+		font-family: $font-family-monospace;
+		color: $gray-900;
+		&:hover {
+			color: $link-color;
+		}
+		&:first-child {
+			padding-left: 0;
+		}
+	}
+}
+
+.entry-header{
+	.entry-title{
+		margin: 0;
+	}
+	.entry-meta{
+		line-height: 1;
+		margin: auto auto 1px 5px;
+		font-size: .9em;
+	}
+}
+
+	
+
+/* ==========================================================================
+   using category 
+   ========================================================================== */
+
+.category-project {
+	p {
+		font-family: $font-family-sans-serif;
+	}
+
+	img {
+		border: solid 2px white;
+	}
+}
+
+.category-prose .cc,
+.category-script .cc,
+.shadow {
+	background: white;
+	box-shadow: 8px 12px 18px rgba(0, 0, 0, 0.6);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='#667555')";
+}
+
+/* ==========================================================================
+   =archvie.php
+   ========================================================================== */
+
+/* ==========================================================================
+   =single.php
+   ========================================================================== */
+
+.single-post {
+	article {
+		h1 {}
+	}
+}
+
+/* ==========================================================================
+   post footer
+   ========================================================================== */
+
+.content-info{
+	padding: 5rem 0 0;
+	background: linear-gradient(to bottom, rgba(255,250,252,0) 0%,rgba(255,255,252,1) 30%,rgba(255,250,252,1) 70%,rgba(255,250,252,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.entry-footer{
+}
+.shorturl{
+	font-size: .7rem;
+	margin-left: 5px;
+	background-color: rgba(250, 255, 251, 0.9);
+	border: 1px solid white;
+	width: 180px;
+}
+.entry-posts-nav{
+	.fa{
+		padding: 0 5px;
+	}
+	small{
+		font-size: inherit;
+	}
+	.prev-post{
+		text-indent: -14px;
+	}
+	.next-post{
+
+	}
+}
+
+.palm {
+	padding: 1rem 0 5rem;
+	border-top: 1px black solid;
+	margin-bottom: 2rem;
+	font-size: .85rem;
+
+	.c{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	a{
+		color:black;
+		padding: 2px;
+	}
+	a, em {
+		margin-right: 10px;
+	}
+	a:hover{
+		background: black;
+		color: white;
+		text-decoration: none;
+	}
+}
+.social-links{
+	font-size: 1.2rem;
+	display: flex;
+	.social-link{
+		padding: 3px 6px 4px 4px;
+		&:first-child{
+			padding-left: 0;
+		}
+	}
+	a:hover{
+		background: black;
+		color: $palm-blue;
+	}
+}
+.permalink .fa{
+	// position: relative;
+	// top: 2px;
+}
+
+
+
+.dancing-squirrel {
+	background-image: url("../images/site/squirrel.gif");
+	background-size: cover;
+	min-height: 270px;
+	min-width: 180px;
+	margin-top: 20px;
+	float: right;
+	border: 12px solid #ccc;
+	border-radius: 199px;
+}
+
+.fb-comments {}
+
+.credibility-footnotes,
+.footnotes {
+	overflow: hidden;
+}
+
+
+/* ==========================================================================
+   =nav
+   ========================================================================== */

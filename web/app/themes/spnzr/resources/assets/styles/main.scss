@@ -1,7 +1,8 @@
 @import "common/variables";
 
 /** Import everything from autoload */
-@import "./autoload/**/*";
+@import "./autoload/bs-parts";
+@import "./autoload/fontawesome";
 
 /**
  * Import npm dependencies
@@ -14,6 +15,7 @@
 /** Import theme styles */
 @import "common/global";
 @import "common/glitch";
+@import "common/backgrounds";
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";
@@ -22,7 +24,7 @@
 @import "layouts/sidebar";
 @import "layouts/footer";
 @import "layouts/posts";
-@import "layouts/script";
 @import "layouts/pages";
+@import "layouts/script";
 @import "layouts/amtrak";
 @import "layouts/tinymce";

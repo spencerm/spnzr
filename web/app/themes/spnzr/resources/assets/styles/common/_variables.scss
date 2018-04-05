@@ -32,8 +32,16 @@ $gray-700:                  #495057;
 $gray-800:                  #343a40;
 $gray-900:                  #212529;
 
+// Links
+//
+// Style anchor elements.
+$link-color: $amtrak-blue;
+$link-decoration : none !default;
+$link-hover-color : darken($link-color, 15%) !default;
+$link-hover-decoration : underline !default;
+
 $theme-colors: (
-  primary: $palm-blue,
+  primary: $amtrak-blue,
   secondary: $gray-600,
   success: $palm-blue,
   info: $city-yellow,

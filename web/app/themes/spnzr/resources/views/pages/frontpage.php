@@ -2,15 +2,14 @@
   <div id="crooks"></div>
 </div>
 
-<section style="height:100%;width:100%" >	
+<section style="height:100%;width:100%" class="c">	
 
   <canvas id="sugar" width="100%" height="100%"></canvas>
   <h1>Spencer McCormick</h1>
   <nav class="nav-primary">
 		<ul id="menu-home">
-      <li><a href="#programming">programming</a></li>
-      <li><a href="#tech">tech</a></li>
-			<li><a href="#design">design</a></li>
+      <li><a href="#programming">skills</a></li>
+      <li><a href="#tech">projects</a></li>
 			<li><a href="#poultry">poultry</a></li>
 		</ul>
   </nav>
@@ -24,29 +23,55 @@
   </p>
 </section>
 
-<div class="">
+<section class="c">
+  <h2>skills</h2>
+  <div class="row">
+    <div id="design" class="col-12 design">
+      <h4>design</h4>
+      <ul>
+        <li>clean &amp; modern to delightful &amp; tacky</li>
+        <li>adobe creative suite, sketch</li>
+      </ul>
+    </div>
 
-  <section id="design" class="col design">
-    <h2>design</h2>
-    <p>clean &amp; modern to delightful &amp; tacky
-		<br>adobe, sketch</p>
-  </section>
+    <div id="programming" class="col-12  programming">
+      <h4>programming</h4>
+      <ul>
+      <li>modern WordPress: webpack, js, scss, svg, PHP, &amp; git. </li>
+      <li>I build off Roots, using Trellis, Ansible, and Vagrant.</li>
+      <li>+ I'm familiar with Node, React, native Android, Laravel, and CodeIgniter.</li>
+      </ul>
+    </div>
 
-  <section id="programming" class="col  programming">
-    <h2>programming</h2>
-    <p>Most days I work in WordPress, using webpack, js, scss, svg, PHP, &amp; git. 
-    <br>I build off Roots, using Trellis, Ansible, and Vagrant.
-    <br>I'm familiar with Node, React, native Android apps, and Laravel Blade.
-  </section>
+    <div id="tech" class="col  storytelling">
+      <h4>tech</h4>
+      <p>macOS, linux, windows. simple bash scripts. command line.
+      <br>nginx &amp; apache. 
 
-  <section id="storytelling" class="col  storytelling">
-    <h2>storytelling</h2>
-    <p>Every project has an ending, and getting there is what matters.</p>
-  </section>
+      </p>
+    </div>
 
-  <section id="poultry" class="col  poultry">
-    <h2>poultry</h2>
-    <p>Chickens are awesome, and I'm friends with a few of them.</p>
-	</section>
-	
-</div>
+    <div class="col-12">
+      <h2>projects</h2>
+      <ul>
+      <li>marathon camera hat / soft &amp; hardware</li>
+      <li>sky's the limit / board game</li>
+      <li>crown heights running club / web site &amp; admin</li>
+      <li>aboard amtrak / web site </li>
+      <li>two wheels to addis / web site</li>
+      </ul>
+    </div>
+
+    <div class="col-12">
+      <h2>poultry</h2>
+      <p>Crooks is a special needs chicken, and she's literally world famous. 
+  Follow her on Instagram!</p>
+      <ul>
+
+      </ul>
+    </div>
+
+  </div>
+
+</section>
+
