@@ -8,6 +8,42 @@ use Roots\Sage\Config;
 use Roots\Sage\Container;
 
 /**
+ * override wordpress and output a few classes 
+ *
+ * @param  $more string
+ * @param  $id postid
+ * @return html string
+ * March 2018
+ * used in spnzr
+ *
+ */
+function spnzr_the_classes($more = null, $id = null){
+    if( empty($id) ){
+      global $post;
+      $id = $post->ID;
+    }
+    $cats = get_the_terms($id,'category');
+    $bgs = get_the_terms($id,'spnzr_bgs');
+    if( !empty($cats) || !empty($bgs) || !empty($more) ){
+      $output = "class='";
+      }
+      if(!empty($cats)){
+      foreach ($cats as $cat)
+        $output .= "category-" . $cat->slug . " ";
+      }
+      if(!empty($bgs)){
+      foreach ($bgs as $bg)
+        $output .= $bg->slug . " ";
+      }
+    if ($more)
+      $output .= $more;
+      if (isset($output)){
+       $output .= "'";
+         echo $output;
+      }
+}
+
+/**
  * Helper function for prettying up errors
  * @param string $message
  * @param string $subtitle
