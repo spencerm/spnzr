@@ -1,4 +1,4 @@
-<article id={{get_post_field( 'post_name', get_post() )}} @php(Spnzr\spnzr_the_classes('post')) @php(Spnzr\the_bg_image())>
+<article id={{get_post_field( 'post_name', get_post() )}} @php(spnzr_the_classes('post')) @php(Spnzr\the_bg_image())>
 
 	<header class="c entry-header">
 		<h1 class="entry-title">{!! get_the_title() !!}</h1>
