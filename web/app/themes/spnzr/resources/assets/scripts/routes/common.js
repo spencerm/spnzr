@@ -25,7 +25,7 @@ export default {
             newStory.bottom = Math.ceil($(post).innerHeight()) + newStory.top;
             newStory.id = $(post).attr('id');
             stories.push(newStory);
-            console.log("added story: " + newStory.id + " @ h:" + newStory.bottom );
+            // console.log("added story: " + newStory.id + " @ h:" + newStory.bottom );
         };
 
     if( $("body").hasClass('front-page') ){
@@ -48,21 +48,21 @@ export default {
         if(storyState !== stories[i].id && scrollTop > stories[i].top && scrollTop < stories[i].bottom - methods.getWindowHeight() ) {
           focusedPost.classList.add('bg-fixed');
           storyState = stories[i].id;
-          console.log("1 story change to "+storyState);
+          // console.log("1 story change to "+storyState);
           return;
         /* going down */
         } else if (storyState === stories[i].id && scrollTop > stories[i].bottom - methods.getWindowHeight() ){
           focusedPost.classList.remove('bg-fixed');
           focusedPost.classList.add('bg-bottom');
           storyState = "transition";
-          console.log("2 story change to "+storyState);
+          // console.log("2 story change to "+storyState);
           return;
         /* going up */
         } else if (storyState === stories[i].id && scrollTop < stories[i].top ){
           focusedPost.classList.remove('bg-fixed');
           focusedPost.classList.add('bg-top');
           storyState = "transition";
-          console.log("3 story change to "+storyState);
+          // console.log("3 story change to "+storyState);
           return;
         }
         }
