@@ -6,7 +6,28 @@
 
 use Roots\Sage\Config;
 use Roots\Sage\Container;
-
+/**
+ * create a bg-image div from featured image
+ *
+ * @param  $theme_location string
+ * @return html
+ * 
+ * used in spnzr
+ * 3/2018
+ *
+ */
+function the_bg_image(){
+    if(has_post_thumbnail()){
+      $output = ' data-bg-image="';
+      $output .= get_the_post_thumbnail_url(get_the_ID(),'full');
+      $output .= '"';    
+      $output .= ' style="background-image:url(';
+      $output .= get_the_post_thumbnail_url(get_the_ID(),'full');
+      $output .= ')"';
+      echo $output;
+    }
+  }
+  
 /**
  * override wordpress and output a few classes 
  *
