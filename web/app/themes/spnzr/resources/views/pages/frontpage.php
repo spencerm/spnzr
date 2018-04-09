@@ -1,19 +1,21 @@
+<canvas id="sugar" width="100%" height="100%"></canvas>
+
 <div id="chicken-run">
   <div id="crooks"></div>
 </div>
 
-<section style="height:100%;width:100%" class="c">	
+<section style="height:100%;width:100%" class="c" id="cheeze-itz">	
 
-  <canvas id="sugar" width="100%" height="100%"></canvas>
   <h1>Spencer McCormick</h1>
-  <nav class="nav-primary">
+  <h4>creative web developer</h4>
+  <!-- <nav class="nav-primary">
 		<ul id="menu-home">
       <li><a href="#programming">skills</a></li>
       <li><a href="#tech">projects</a></li>
 			<li><a href="#poultry">poultry</a></li>
 		</ul>
   </nav>
-  <i class="fa fa-arrow-down" aria-hidden="true"></i>
+  <i class="fa fa-arrow-down" aria-hidden="true"></i> -->
 
   <footer id="salt">
   </footer>
@@ -45,14 +47,14 @@
 
     <div id="tech" class="col  storytelling">
       <h4>tech</h4>
-      <p>macOS, linux, windows. simple bash scripts. command line.
-      <br>nginx &amp; apache. 
-
-      </p>
+      <ul>
+        <li>macOS, linux, windows. basic hardware hacking.</li>
+        <li>command line. bash scripts. nginx &amp; apache.</li>
+      </ul>
     </div>
 
     <div class="col-12">
-      <h2>projects</h2>
+      <!-- <h2>projects</h2>
       <ul>
       <li>marathon camera hat / soft &amp; hardware</li>
       <li>sky's the limit / board game</li>
@@ -68,7 +70,7 @@
   Follow her on Instagram!</p>
       <ul>
 
-      </ul>
+      </ul> -->
     </div>
 
   </div>

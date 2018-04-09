@@ -47,11 +47,5 @@
 				</div>
 			</nav>
 		</div>
-		
-		<div class="mx-auto entry-posts-nav">
-			{!!previous_post_link('<div class="prev-post">%link</div>', '<i class="fa fa-angle-double-left" aria-hidden="true"></i> previous = <i>%title</i>')!!}
-			{!! next_post_link('<div class="next-post">%link</div>', 'next = <i>%title</i> <i class="fa fa-angle-double-right" aria-hidden="true"></i> ')!!}
-		</div>
-    
   </footer>
 </article>
