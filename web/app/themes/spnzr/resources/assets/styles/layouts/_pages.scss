@@ -11,23 +11,23 @@
 	overflow-x: hidden;
 }
 
-@mixin add-vertical-padding($padding: 5rem) {
-	// maintain side gutters
-	padding-top: $padding;
-	padding-bottom: $padding;
-}
+
 
 // 30s frame - creates film strip movement
 @keyframes walkanim {
 	to {
 		background-position: 100% 0;
-		transform: rotate(95px);
+		// transform: scale(1.1, 1);
 	}
 }
 
 @keyframes bigup {
+	from{
+		// transform: rotate(0turn)
+	}
 	to {
-		transform: scale(2000%);
+		// transform: rotate(0.05turn);
+		// transform: rotate(var(--chicken-movement,0turn));
 	}
 }
 
@@ -43,34 +43,26 @@
 
 #chicken-run {
 	display: inline-block;
-	// right: 10px;
-	width: 167px;
+	width: 160px;
 	height: 160px;
-	padding-bottom: 30%;
-	vertical-align: middle;
 	overflow: hidden;
-	animation: stroll 30s linear infinite;
+	animation: stroll 12s cubic-bezier(0.1, 0.7, 1.0, 0.1) infinite;
 	position: absolute;
-	top: 40px;
+	top: 160px;
 }
 
 #crooks {
-	display: inline-block;
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 100%;
-	height: 100%;
+	width: 160px;
+	height: 160px;
 	background-image: url(../images/crooks-9frames.svg);
 	background-repeat: no-repeat;
 	background-size: 800%; // one less than frames
-	animation: walkanim 1s infinite steps(7), bigup 10s steps(5);
+	animation: walkanim 1s infinite steps(7);
 }
 
 #crooks-egg {
 	visibility: hidden;
 }
-
 
 /** 
  * fp canvas sketch 
@@ -82,7 +74,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	z-index: 3;
+	z-index: -1;
 }
 
 
@@ -92,18 +84,18 @@
 
 #salt {
 	position: absolute;
-	bottom: 0;
+	top: 0 !important;
 	right: 0;
-	height: 20px;
-	/* font-size: 0.7rem; */
+	margin-top: 5rem; // matching body
+	padding: 3px;
 	font-family: monospace;
-	background: rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.7);
 	z-index: 99;
 }
 
 #spice {
-	text-align: right; // max-width: 350px;
-	padding: 3rem 0 0;
+	padding-top: 2rem;
+	padding-bottom: 6rem;
 }
 
 // front-page index
@@ -156,39 +148,32 @@
 
 
 
-// contact
+// home info
+.spicy{
+	transition: color 1s;
+}
+
 #cheeze-itz {
-	padding: 5rem 0;
-	// color: #fff;
+	padding-top: 5rem;
 	h1{
 		margin: 0;
 	}
-	h4{
-		font-weight: 600;
-		font-size: 1.2rem;
-	}
-	// border-top: 4px dashed white;
-	// border-bottom: 4px dashed white;
-	// background-color: black;
-	// a {
-	// 	color: #fff;
-	// 	&:hover {
-	// 		color: $palm-blue;
-	// 	}
-	// }
-	// ul {
-	// 	padding: 0;
-	// 	display: -webkit-flex;
-	// 	display: flex;
-	// 	justify-content: center;
-	// }
-	// li {
-	// 	flex: 1 1 auto;
-	// 	align-self: baseline;
-	// 	list-style: none;
-	// }
 }
-
+#goldfish{
+	background: linear-gradient(rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%);
+	h4{
+		margin: 0;
+		font-size: 1.2rem;
+		font-weight: 700;	
+	}
+	ul{
+		padding-left: 1.5rem;
+	}
+	li{
+		font-weight: 300;
+		list-style-type: square;
+	}
+}
 
 /*
  * terms
