@@ -6,8 +6,8 @@
 
 <section style="height:100%;width:100%" class="c" id="cheeze-itz">	
 
-  <h1>Spencer McCormick</h1>
-  <h4>creative web developer</h4>
+  <h1 class="spicyColor">Spencer McCormick</h1>
+  <h4 class="spicyColor">creative web developer</h4>
   <!-- <nav class="nav-primary">
 		<ul id="menu-home">
       <li><a href="#programming">skills</a></li>
@@ -17,16 +17,23 @@
   </nav>
   <i class="fa fa-arrow-down" aria-hidden="true"></i> -->
 
-  <footer id="salt">
-  </footer>
+  <footer id="salt"></footer>
 
   <p id="spice" class="" data-text="roads to cross">
-    Roads to cross<br> chickens exist
+    sometimes.<br> 
+    you feel<br> 
+    like<br> 
+    you're going<br>
+    backwards...<br>
+    but then!<br>
+    the road<br>
+    we cross<br> 
+    <i class="fa fa-smile"></i><br>
   </p>
 </section>
 
-<section class="c">
-  <h2>skills</h2>
+<section class="c" id="goldfish">
+  <h2>\\\ skills</h2>
   <div class="row">
     <div id="design" class="col-12 design">
       <h4>design</h4>
