@@ -48,7 +48,7 @@ body {
  */
 
 .category-prose,
-.category-prose-clean,
+.category-story,
 .category-script {
     .cc {
         background: white;
@@ -156,6 +156,11 @@ we build up our backgrounds by adding following classes
     /* Safari 5.1, Chrome 10+ */
     background: url(../images/bgs/bg-corner-lines.png) no-repeat 10px 10px, url(../images/bgs/bg-city.png) bottom repeat-x, -webkit-linear-gradient(top, #ffee88, #eedd33);
 }
+.bg-orange {
+    /* old*/
+    background: url(../images/bgs/bg-corner-lines.png) no-repeat 10px 10px #eeee66;
+    
+}
 
 .bg-green-yellow {
     text-align: center;
@@ -163,12 +168,19 @@ we build up our backgrounds by adding following classes
     -webkit-background-size: 120px 40px;
     -o-background-size: 40px 40px;
     background-size: 80px 80px;
-    background-image: -moz-linear-gradient(-45deg, #ffed4c 0%, #f4bb35 3%, #8eed3b 25%, #f4bb35 47%, #ffed4c 50%, #f4bb35 53%, #8eed3b 75%, #f4bb35 97%, #ffed4c 100%);
-    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffed4c), color-stop(5%, #f4bb35), color-stop(25%, #8eed3b), color-stop(47%, #f4bb35), color-stop(50%, #ffed4c), color-stop(53%, #f4bb35), color-stop(75%, #8eed3b), color-stop(97%, #f4bb35), color-stop(100%, #ffed4c));
-    background-image: -webkit-linear-gradient(-45deg, #ffed4c 0%, #f4bb35 3%, #8eed3b 25%, #f4bb35 47%, #ffed4c 50%, #f4bb35 53%, #8eed3b 75%, #f4bb35 97%, #ffed4c 100%);
-    background-image: -o-linear-gradient(-45deg, #ffed4c 0%, #f4bb35 3%, #8eed3b 25%, #f4bb35 47%, #ffed4c 50%, #f4bb35 53%, #8eed3b 75%, #f4bb35 97%, #ffed4c 100%);
-    background-image: -ms-linear-gradient(-45deg, #ffed4c 0%, #f4bb35 3%, #8eed3b 25%, #f4bb35 47%, #ffed4c 50%, #f4bb35 53%, #8eed3b 75%, #f4bb35 97%, #ffed4c 100%);
     background-image: linear-gradient(135deg, #ffed4c 0%, #f4bb35 3%, #8eed3b 25%, #f4bb35 47%, #ffed4c 50%, #f4bb35 53%, #8eed3b 75%, #f4bb35 97%, #ffed4c 100%);
+}
+
+.bg-rainbow-yellow{
+    background: url(../images/bgs/bg-corner-lines.png) repeat-y -20px -10px,
+                linear-gradient(217deg, rgba(255, 145, 0, 0.842), rgba(255,0,100,0) 70.71%),                
+                linear-gradient(127deg, rgba(200,5,50,0.8), rgba(255, 181, 0, 0) 70.71%),                
+                linear-gradient(336deg, rgba(255, 0, 0, 0.8), rgba(0,0,255,0) 70.71%);
+}
+.bg-rainbow{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
 }
 
 .bg-american-eagle {

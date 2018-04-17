@@ -71,7 +71,7 @@
 
 @include media-breakpoint-up(sm) {
   // 600px-ish content width
-  .c750, .category-prose, .category-prose-clean {
+  .c750, .category-prose, .category-story {
     .cc, .c {}
 
     .cc {
@@ -116,7 +116,7 @@
    * prose
    * like a page, with (probably) a background
    */
-  .category-prose, .category-prose-clean {
+  .category-prose, .category-story {
     .c {
       padding-left: 100px;
     }
@@ -139,7 +139,7 @@
     }
   }
 
-  .category-prose-clean {
+  .category-prose {
     .cc {
       padding-top: 0;
     }
@@ -276,17 +276,22 @@
 /* ==========================================================================
    Images
    ========================================================================== */
-.collage {
-  overflow-x: auto;
-  overflow-y: hidden;
-  background: white;
-  padding: 1rem 0;
-  margin: 0 0 4rem;
-  white-space: nowrap;
-}
+// .collage {
+//   overflow-x: auto;
+//   overflow-y: hidden;
+//   background: white;
+//   padding: 1rem 0;
+//   margin: 0 0 4rem;
+//   white-space: nowrap;
+// }
 
-.collage figure {
-  margin: 2rem;
+// .collage figure {
+//   margin: 2rem;
+// }
+.inline660px{
+  .carousel-control-prev, .carousel-control-next{
+    background: inherit;
+  }
 }
 
 
