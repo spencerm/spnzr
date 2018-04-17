@@ -1,7 +1,7 @@
 <article id={{get_post_field( 'post_name', get_post() )}} @php(spnzr_the_classes('post')) @php(the_bg_image())>
 
 	<header class="c entry-header">
-		<h1 class="entry-title">{!! get_the_title() !!}</h1>
+		<h1 class="entry-title">{!! get_the_title() !!} <span class="slashes">///</span></h1>
 		<p class="entry-meta">
 			{!! get_field("sub-heading") !!}
 			<br>
