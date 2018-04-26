@@ -40,16 +40,15 @@
 		transform: translateX(-100%);
 	}
 }
-@media (max-device-width: 800px){
-	@keyframes stroll {
-		from {
-			transform: translateX(500%);
-		}
-		to {
-			transform: translateX(-100%);
-		}
+@keyframes stroll800 {
+	from {
+		transform: translateX(400%);
+	}
+	to {
+		transform: translateX(-100%);
 	}
 }
+
 
 #chicken-run {
 	display: inline-block;
@@ -59,6 +58,9 @@
 	animation: stroll 12s cubic-bezier(0.1, 0.7, 1.0, 0.1) infinite;
 	position: absolute;
 	top: 160px;
+	@media (max-device-width: 800px){
+		animation: stroll800 9s cubic-bezier(0.1, 0.7, 1.0, 0.1) infinite;
+	}
 }
 
 #crooks {
@@ -68,6 +70,7 @@
 	background-repeat: no-repeat;
 	background-size: 800%; // one less than frames
 	animation: walkanim 1s infinite steps(7);
+	max-width: 100%;
 }
 
 #crooks-egg {
