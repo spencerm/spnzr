@@ -53,6 +53,7 @@ export default {
         /* going down */
         } else if (storyState === stories[i].id && scrollTop > stories[i].bottom - methods.getWindowHeight() ){
           focusedPost.classList.remove('bg-fixed');
+          focusedPost.classList.remove('bg-top');
           focusedPost.classList.add('bg-bottom');
           storyState = "transition";
           // console.log("2 story change to "+storyState);
@@ -60,6 +61,7 @@ export default {
         /* going up */
         } else if (storyState === stories[i].id && scrollTop < stories[i].top ){
           focusedPost.classList.remove('bg-fixed');
+          focusedPost.classList.remove('bg-bottom');
           focusedPost.classList.add('bg-top');
           storyState = "transition";
           // console.log("3 story change to "+storyState);

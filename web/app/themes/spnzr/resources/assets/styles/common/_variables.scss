@@ -6,6 +6,8 @@
 //== Colors
 $color-facebook:            #3b5998;
 $color-twitter:             #55ACEE;
+$color-instagram:           #fd1d1d;
+$color-github:              #333333;
 $color-reddit:              #ff4500;
 $color-google-plus:         #D34836;
 $color-pinterest:           #cb2027;
@@ -64,7 +66,7 @@ $font-family-monospace:    $systemMonospace, mono;
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
-$enable-rounded:            false;
+$enable-rounded:            true;
 $enable-shadows:            true;
 $enable-gradients:          true;
 $enable-transitions:        true;

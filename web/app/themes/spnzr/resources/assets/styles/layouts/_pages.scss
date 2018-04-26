@@ -40,6 +40,16 @@
 		transform: translateX(-100%);
 	}
 }
+@media (max-device-width: 800px){
+	@keyframes stroll {
+		from {
+			transform: translateX(500%);
+		}
+		to {
+			transform: translateX(-100%);
+		}
+	}
+}
 
 #chicken-run {
 	display: inline-block;
@@ -75,6 +85,7 @@
 	right: 0;
 	bottom: 0;
 	z-index: -1;
+	max-width: 100%;
 }
 
 

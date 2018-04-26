@@ -1,0 +1,16 @@
+.btn-github{
+  background-color: $color-github;
+}
+.btn-facebook{
+  background-color: $color-facebook;
+}
+.btn-instagram{
+  background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  box-shadow: 0 0 3px rgba(#000, .5);
+  color: white;
+  font-weight: bold;
+  border: white 2px solid;
+  &:hover{
+    color: rgba(#FFF, .5)
+  }
+}

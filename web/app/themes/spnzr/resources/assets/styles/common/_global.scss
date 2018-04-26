@@ -141,7 +141,7 @@
 
   .category-prose {
     .cc {
-      padding-top: 0;
+      // padding-top: 2rem;
     }
   }
   /**
@@ -303,9 +303,6 @@ blockquote {
   // padding: ($line-height-lg / 2) $line-height-lg;
   // line-height: 1.25;
   // margin: 0 0 1rem;
-
-  p {}
-
   p:last-child {
     margin-bottom: 0;
   }
@@ -322,9 +319,7 @@ blockquote {
 
     &::before {
       content: '\2014 \00A0';
-
       // EM DASH, NBSP
-   
     }
   }
 
@@ -352,9 +347,6 @@ blockquote {
     padding-right: 0;
     border: none;
     color: lighten($body-color, 10%);
-
-    p,
-    small {}
 
     small, cite {
       text-align: right;
