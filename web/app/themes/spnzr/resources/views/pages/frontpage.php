@@ -21,6 +21,7 @@
 
   <p id="spice" class="" data-text="roads to cross">
     sometimes.<br> 
+<<<<<<< HEAD
     you feel<br> 
     like<br> 
     you're going<br>
@@ -29,6 +30,15 @@
     the road<br>
     we cross<br> 
     <i class="fa fa-smile"></i><br>
+=======
+    it feels<br> 
+    like<br> 
+    the road<br>
+    never ends.<br>
+    but then!
+    we cross <i class="fa fa-smile"></i><br> 
+    
+>>>>>>> refs/remotes/bitbucket/master
   </p>
 </section>
 
