@@ -1,13 +1,16 @@
 <canvas id="sugar" width="100%" height="100%"></canvas>
 
-<div id="chicken-run">
-  <div id="crooks"></div>
+<div class="chicken-garden">
+  <div id="chicken-run">
+    <div id="crooks"></div>
+  </div>
 </div>
 
 <section style="height:100%;width:100%" class="c" id="cheeze-itz">	
 
   <h1 class="spicyColor">Spencer McCormick</h1>
   <h4 class="spicyColor">creative web developer</h4>
+  <? /* 
   <!-- <nav class="nav-primary">
 		<ul id="menu-home">
       <li><a href="#programming">skills</a></li>
@@ -16,12 +19,12 @@
 		</ul>
   </nav>
   <i class="fa fa-arrow-down" aria-hidden="true"></i> -->
+  */ ?>
 
   <footer id="salt"></footer>
 
   <p id="spice" class="" data-text="roads to cross">
     sometimes.<br> 
-<<<<<<< HEAD
     you feel<br> 
     like<br> 
     you're going<br>
@@ -30,15 +33,6 @@
     the road<br>
     we cross<br> 
     <i class="fa fa-smile"></i><br>
-=======
-    it feels<br> 
-    like<br> 
-    the road<br>
-    never ends.<br>
-    but then!
-    we cross <i class="fa fa-smile"></i><br> 
-    
->>>>>>> refs/remotes/bitbucket/master
   </p>
 </section>
 
@@ -71,6 +65,7 @@
     </div>
 
     <div class="col-12">
+    <? /*
       <!-- <h2>projects</h2>
       <ul>
       <li>marathon camera hat / soft &amp; hardware</li>
@@ -88,6 +83,7 @@
       <ul>
 
       </ul> -->
+      */ ?>
     </div>
 
   </div>
